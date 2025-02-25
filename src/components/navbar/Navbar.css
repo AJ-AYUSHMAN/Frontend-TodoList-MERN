@@ -1,0 +1,23 @@
+.navbar-brand {
+    color: rgb(rgb(229, 135, 135), rgb(123, 156, 123), rgb(102, 102, 134));
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-nav{
+    background-color: rgb(229, 135, 135);
+    color: white !important;
+    margin: auto;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.nav-link{
+    padding: 10px;
+    margin: 10px;
+}

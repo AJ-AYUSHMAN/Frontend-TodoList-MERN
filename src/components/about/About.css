@@ -1,0 +1,16 @@
+.about{
+    width: 100%;
+    height: 100vh;
+}
+.about p{
+    font-size: 1rem;
+    color: #282c34;
+    margin-top: 0;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.about h1{
+    border-bottom: 1px solid rgb(229, 135, 135);
+    text-size-adjust: 5rem;
+}
