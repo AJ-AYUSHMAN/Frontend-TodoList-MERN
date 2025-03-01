@@ -18,7 +18,7 @@ const Signin = () => {
         setError(""); // Clear previous errors
 
         try {
-            const res = await axios.post(`${window.location.origin}/api/v1/login`, inputs);
+            const res = await axios.post("https://backend-todo-list-mern.vercel.app/api/v1/login", inputs);
             console.log(res.data.others?._id); // Log user ID if available
             alert(res.data.message);
             setInputs({ email: "", password: "" });

@@ -19,7 +19,7 @@ const Signup = () => {
         setError(""); // Clear previous errors
 
         try {
-            const res = await axios.post(`${window.location.origin}/api/v1/signup`, inputs);
+            const res = await axios.post("https://backend-todo-list-mern.vercel.app/api/v1/signup", inputs);
             alert(res.data.message);
             setInputs({ email: "", username: "", password: "" });
             history("/todo");
